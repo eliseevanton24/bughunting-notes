@@ -40,6 +40,5 @@
 - [Bug Bounty Hunter Guide](https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters)
 - [PortSwigger: Access control vulnerabilities](https://portswigger.net/web-security/access-control)
 - [OWASP: Authorization Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html)
-- [PayloadAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
 
 ---
