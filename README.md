@@ -16,7 +16,7 @@
 | Тема                        | Пройдено | Заметки / выводы |
 |-----------------------------|----------|------------------|
 | Path Traversal              | ✅        | Учусь читать произвольные файлы через `../` |
-| Access Control              | ⏳        | — |
+| Access Control              | ✅        | Изучил IDOR, эскалации прав, подмену cookie  |
 | Authentication              | ⏳        | — |
 | SSRF                        | ⏳        | — |
 | File Upload Vulns           | ⏳        | — |
@@ -28,8 +28,7 @@
 ## Содержание
 
 - [`path-traversal.md`](path-traversal.md) — что такое Path Traversal, как его находить и эксплуатировать
-- `burp-tips.md` — заметки по использованию Burp Suite
-- В будущем: XSS, CSRF, IDOR, SSRF, SQLi, Upload Bypass и др.
+- [`access-control.md`](access-control.md) — как работает контроль доступа, IDOR, подмена ролей и cookie
 
 ---
 
