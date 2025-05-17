@@ -48,13 +48,6 @@ image?filename=../../../etc/passwd
 
 ⸻
 
-Что изучить дальше
-	•	Байпасы фильтров (%2e, %2e%2e, %c0%af)
-	•	Path Traversal в upload-формах
-	•	LFI → RCE цепочки
-
-⸻
-
 Полезные ссылки
 - [Burp Suite](https://portswigger.net/burp)
 - [PayloadAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
