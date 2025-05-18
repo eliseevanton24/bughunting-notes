@@ -17,7 +17,7 @@
 |-----------------------------|----------|------------------|
 | Path Traversal              | ✅        | Узнал, как читать произвольные файлы через `../` |
 | Access Control              | ✅        | Узнал, как работают IDOR, эскалации прав и подмена cookie  |
-| Authentication              | ⏳        | — |
+| Authentication              | ✅        | Узнал, как происходит перебор логинов и паролей, обход 2FA, enumeration по ответам |
 | SSRF                        | ⏳        | — |
 | File Upload Vulns           | ⏳        | — |
 | OS Command Injection        | ⏳        | — |
@@ -29,7 +29,8 @@
 
 - [`path-traversal.md`](path-traversal.md) — что такое Path Traversal, как его находить и эксплуатировать
 - [`access-control.md`](access-control.md) — как работает контроль доступа, IDOR, подмена ролей и cookie
-
+- [`authentication.md`](authentication.md) — как работает аутентификация, brute-force, username enumeration, сессии и 2FA
+  
 ---
 
 ## Полезные ресурсы
