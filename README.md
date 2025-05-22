@@ -57,7 +57,7 @@
 - [`path-traversal.md`](path-traversal.md) — что такое Path Traversal, как его находить и эксплуатировать
 - [`access-control.md`](access-control.md) — как работает контроль доступа, IDOR, подмена ролей и cookie
 - [`authentication.md`](authentication.md) — как работает аутентификация, brute-force, username enumeration, сессии и 2FA
-- [`server-side_request_forgery.md`](server-side_request_forgery.md) — как работает SSRF, как сканировать локальную сеть, атаковать localhost и удалять пользователей
+- [`server-side-request-forgery.md`](server-side-request-forgery.md) — как работает SSRF, как сканировать локальную сеть, атаковать localhost и удалять пользователей
 - [`file-upload-vulnerabilities.md`](file-upload-vulnerabilities.md) — как загружается web shell, какие бывают уязвимости валидации, обход Content-Type, RCE через upload
 - [`os-command-injection.md`](os-command-injection.md) — как работает OS command injection, примеры инъекций (`&`, `|`, `whoami`) и полезные команды
 - [`sql-injection.md`](sql-injection.md) — как находить SQL-инъекции, извлекать скрытые данные, обходить WHERE, логиниться без пароля 
