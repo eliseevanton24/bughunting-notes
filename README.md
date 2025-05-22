@@ -21,7 +21,7 @@
 | SSRF                        | ✅        | Узнал, как заставить сервер делать запросы на localhost, 192.168.x.x, удалять пользователей |
 | File Upload Vulns           | ✅        | Узнал, как загружать web shell, обходить Content-Type и запускать RCE |
 | OS Command Injection        | ✅        | Узнал, как выполнять команды на сервере, использовать whoami, &, ` |
-| SQL Injection               | ⏳        | — |
+| SQL Injection               | ✅        | Узнал, как извлекать скрытые данные, обходить WHERE, входить без пароля |
 
 ---
 
@@ -32,7 +32,8 @@
 - [`authentication.md`](authentication.md) — как работает аутентификация, brute-force, username enumeration, сессии и 2FA
 - [`server-side_request_forgery.md`](server-side_request_forgery.md) — как работает SSRF, как сканировать локальную сеть, атаковать localhost и удалять пользователей
 - [`file_upload_vulnerabilities.md`](file_upload_vulnerabilities.md) — как загружается web shell, какие бывают уязвимости валидации, обход Content-Type, RCE через upload
-- [`os_command_injection.md`](os_command_injection.md) — как работает OS command injection, примеры инъекций (`&`, `|`, `whoami`) и полезные команды  
+- [`os_command_injection.md`](os_command_injection.md) — как работает OS command injection, примеры инъекций (`&`, `|`, `whoami`) и полезные команды
+- [`sql-injection.md`](sql-injection.md) — как находить SQL-инъекции, извлекать скрытые данные, обходить WHERE, логиниться без пароля 
   
 ---
 
