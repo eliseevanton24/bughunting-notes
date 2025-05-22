@@ -13,6 +13,8 @@
 
 ## Мой прогресс
 
+## Apprentice
+
 | Тема                        | Пройдено | Заметки / выводы |
 |-----------------------------|----------|------------------|
 | Path Traversal              | ✅        | Узнал, как читать произвольные файлы через `../` |
@@ -23,6 +25,31 @@
 | OS Command Injection        | ✅        | Узнал, как выполнять команды на сервере, использовать whoami, &, ` |
 | SQL Injection               | ✅        | Узнал, как извлекать скрытые данные, обходить WHERE, входить без пароля |
 
+
+## Practitioner: SQL Injection
+
+| Тема                                                                 | Пройдено | Заметки / выводы |
+|----------------------------------------------------------------------|----------|------------------|
+| What is SQL injection?                                               | ⏳        | — |
+| How to detect SQL injection vulnerabilities                          | ⏳        | — |
+| Retrieving hidden data                                               | ⏳        | — |
+| Subverting application logic                                         | ⏳        | — |
+| SQL injection UNION attacks                                          | ⏳        | — |
+| Determining the number of columns required                           | ⏳        | — |
+| Finding columns with a useful data type                              | ⏳        | — |
+| Using a SQL injection UNION attack to retrieve data                  | ⏳        | — |
+| Retrieving multiple values within a single column                    | ⏳        | — |
+| Examining the database                                               | ⏳        | — |
+| Blind SQL injection                                                  | ⏳        | — |
+| Exploiting blind SQL injection by triggering conditional responses   | ⏳        | — |
+| Error-based SQL injection                                            | ⏳        | — |
+| Exploiting blind SQL injection by triggering time delays             | ⏳        | — |
+| Exploiting blind SQL injection using out-of-band (OAST) techniques   | ⏳        | — |
+| SQL injection in different contexts                                  | ⏳        | — |
+| Second-order SQL injection                                           | ⏳        | — |
+| How to prevent SQL injection                                         | ⏳        | — |
+
+
 ---
 
 ## Содержание
@@ -31,8 +58,8 @@
 - [`access-control.md`](access-control.md) — как работает контроль доступа, IDOR, подмена ролей и cookie
 - [`authentication.md`](authentication.md) — как работает аутентификация, brute-force, username enumeration, сессии и 2FA
 - [`server-side_request_forgery.md`](server-side_request_forgery.md) — как работает SSRF, как сканировать локальную сеть, атаковать localhost и удалять пользователей
-- [`file_upload_vulnerabilities.md`](file_upload_vulnerabilities.md) — как загружается web shell, какие бывают уязвимости валидации, обход Content-Type, RCE через upload
-- [`os_command_injection.md`](os_command_injection.md) — как работает OS command injection, примеры инъекций (`&`, `|`, `whoami`) и полезные команды
+- [`file-upload-vulnerabilities.md`](file-upload-vulnerabilities.md) — как загружается web shell, какие бывают уязвимости валидации, обход Content-Type, RCE через upload
+- [`os-command-injection.md`](os-command-injection.md) — как работает OS command injection, примеры инъекций (`&`, `|`, `whoami`) и полезные команды
 - [`sql-injection.md`](sql-injection.md) — как находить SQL-инъекции, извлекать скрытые данные, обходить WHERE, логиниться без пароля 
   
 ---
