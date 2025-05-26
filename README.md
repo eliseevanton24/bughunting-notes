@@ -68,7 +68,7 @@
 
 ### 🔵 Practitioner: SQL Injection
 
-- [what-is-sql-injection.md](what-is-sql-injection.md) — что такое SQL-инъекция и как она работает
+- [what-is-SQL-injection.md](what-is-SQL-injection.md) — что такое SQL-инъекция и как она работает
 - [how-to-detect-SQL-injection-vulnerabilities.md](how-to-detect-SQL-injection-vulnerabilities.md) — как обнаруживать SQL-инъекции вручную
 - [retrieving-hidden-data.md](retrieving-hidden-data.md) — как извлекать данные, скрытые через WHERE
 - [subverting-application-logic.md](subverting-application-logic.md) — как обойти проверку пароля и войти как админ
