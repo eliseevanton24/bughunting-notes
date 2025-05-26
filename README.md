@@ -30,15 +30,15 @@
 
 | Тема                                                                 | Пройдено | Заметки / выводы |
 |----------------------------------------------------------------------|----------|------------------|
-| What is SQL injection?                                               | ⏳        | — |
-| How to detect SQL injection vulnerabilities                          | ⏳        | — |
-| Retrieving hidden data                                               | ⏳        | — |
-| Subverting application logic                                         | ⏳        | — |
-| SQL injection UNION attacks                                          | ⏳        | — |
-| Determining the number of columns required                           | ⏳        | — |
-| Finding columns with a useful data type                              | ⏳        | — |
-| Using a SQL injection UNION attack to retrieve data                  | ⏳        | — |
-| Retrieving multiple values within a single column                    | ⏳        | — |
+| What is SQL injection?                                               | ✅        | — |
+| How to detect SQL injection vulnerabilities                          | ✅        | — |
+| Retrieving hidden data                                               | ✅        | — |
+| Subverting application logic                                         | ✅        | — |
+| SQL injection UNION attacks                                          | ✅        | — |
+| Determining the number of columns required                           | ✅        | — |
+| Finding columns with a useful data type                              | ✅        | — |
+| Using a SQL injection UNION attack to retrieve data                  | ✅        | — |
+| Retrieving multiple values within a single column                    | ✅        | — |
 | Examining the database                                               | ⏳        | — |
 | Blind SQL injection                                                  | ⏳        | — |
 | Exploiting blind SQL injection by triggering conditional responses   | ⏳        | — |
