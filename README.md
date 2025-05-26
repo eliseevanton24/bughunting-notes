@@ -30,15 +30,15 @@
 
 | Тема                                                                 | Пройдено | Заметки / выводы |
 |----------------------------------------------------------------------|----------|------------------|
-| What is SQL injection?                                               | ✅        | — |
-| How to detect SQL injection vulnerabilities                          | ✅        | — |
-| Retrieving hidden data                                               | ✅        | — |
-| Subverting application logic                                         | ✅        | — |
-| SQL injection UNION attacks                                          | ✅        | — |
-| Determining the number of columns required                           | ✅        | — |
-| Finding columns with a useful data type                              | ✅        | — |
-| Using a SQL injection UNION attack to retrieve data                  | ✅        | — |
-| Retrieving multiple values within a single column                    | ✅        | — |
+| What is SQL injection?                                               | ✅        | Узнал, что такое SQLi и как она позволяет вмешиваться в запросы к БД |
+| How to detect SQL injection vulnerabilities                          | ✅        | Научился вручную тестировать уязвимости с помощью `'`, `OR 1=1`, `SLEEP()` и др. |
+| Retrieving hidden data                                               | ✅        | Понял, как обойти фильтры `WHERE` и получить скрытые данные |
+| Subverting application logic                                         | ✅        | Узнал, как обойти проверку пароля и войти как админ, используя `--` |
+| SQL injection UNION attacks                                          | ✅        | Освоил технику `UNION SELECT` для извлечения данных из других таблиц |
+| Determining the number of columns required                           | ✅        | Научился определять количество колонок через `ORDER BY` и `NULL` |
+| Finding columns with a useful data type                              | ✅        | Узнал, как определить, какая колонка подходит для отображения текстовых данных |
+| Using a SQL injection UNION attack to retrieve data                  | ✅        | Научился извлекать логины и пароли из таблицы `users` |
+| Retrieving multiple values within a single column                    | ✅        | Понял, как объединять `username` и `password` в одну строку с разделителем |
 | Examining the database                                               | ⏳        | — |
 | Blind SQL injection                                                  | ⏳        | — |
 | Exploiting blind SQL injection by triggering conditional responses   | ⏳        | — |
@@ -54,13 +54,29 @@
 
 ## Содержание
 
-- [`path-traversal.md`](path-traversal.md) — что такое Path Traversal, как его находить и эксплуатировать
-- [`access-control.md`](access-control.md) — как работает контроль доступа, IDOR, подмена ролей и cookie
-- [`authentication.md`](authentication.md) — как работает аутентификация, brute-force, username enumeration, сессии и 2FA
-- [`server-side-request-forgery.md`](server-side-request-forgery.md) — как работает SSRF, как сканировать локальную сеть, атаковать localhost и удалять пользователей
-- [`file-upload-vulnerabilities.md`](file-upload-vulnerabilities.md) — как загружается web shell, какие бывают уязвимости валидации, обход Content-Type, RCE через upload
-- [`os-command-injection.md`](os-command-injection.md) — как работает OS command injection, примеры инъекций (`&`, `|`, `whoami`) и полезные команды
-- [`sql-injection.md`](sql-injection.md) — как находить SQL-инъекции, извлекать скрытые данные, обходить WHERE, логиниться без пароля 
+### 🟢 Apprentice
+
+- [path-traversal.md](path-traversal.md) — что такое Path Traversal, как его находить и эксплуатировать
+- [access-control.md](access-control.md) — как работает контроль доступа, IDOR, подмена ролей и cookie
+- [authentication.md](authentication.md) — как работает аутентификация, brute-force, username enumeration, сессии и 2FA
+- [server-side-request-forgery.md](server-side-request-forgery.md) — как работает SSRF, как сканировать локальную сеть, атаковать localhost и удалять пользователей
+- [file-upload-vulnerabilities.md](file-upload-vulnerabilities.md) — как загружается web shell, какие бывают уязвимости валидации, обход Content-Type, RCE через upload
+- [os-command-injection.md](os-command-injection.md) — как работает OS command injection, примеры инъекций (`&`, `|`, `whoami`) и полезные команды
+- [sql-injection.md](sql-injection.md) — как находить SQL-инъекции, извлекать скрытые данные, обходить WHERE, логиниться без пароля
+
+---
+
+### 🔵 Practitioner: SQL Injection
+
+- [what-is-sql-injection.md](what-is-sql-injection.md) — что такое SQL-инъекция и как она работает
+- [how-to-detect-SQL-injection-vulnerabilities.md](how-to-detect-SQL-injection-vulnerabilities.md) — как обнаруживать SQL-инъекции вручную
+- [retrieving-hidden-data.md](retrieving-hidden-data.md) — как извлекать данные, скрытые через WHERE
+- [subverting-application-logic.md](subverting-application-logic.md) — как обойти проверку пароля и войти как админ
+- [SQL-injection-UNION-attacks.md](SQL-injection-UNION-attacks.md) — как использовать UNION SELECT для извлечения данных
+- [determining-the-number-of-columns-required.md](determining-the-number-of-columns-required.md) — как определить количество колонок через ORDER BY и NULL
+- [finding-columns-with-a-useful-data-type.md](finding-columns-with-a-useful-data-type.md) — как определить, какие колонки поддерживают текст
+- [using-a-SQL-injection-UNION-attack-to-retrieve-data.md](using-a-SQL-injection-UNION-attack-to-retrieve-data.md) — как вытянуть логины и пароли из таблицы users
+- [retrieving-multiple-values-within-a-single-column.md](retrieving-multiple-values-within-a-single-column.md) — как объединить username и password в одну колонку
   
 ---
 
